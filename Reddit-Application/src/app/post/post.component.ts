@@ -16,12 +16,14 @@ export class PostComponent {
     this.link = 'http://angular.io';
     this.votes = 10;
   }
-  voteUp() {
+  voteUp():Boolean { //Aggiunto tipo di ritorno
     this.votes += 1;
-  }
-  voteDown() {
+    return false; //Non propagare l'evento 
+}
+voteDown():Boolean{
     this.votes -= 1;
-  }
+    return false; //Non propagare l'evento 
+}
   ngOnInit() {}
 }
 
