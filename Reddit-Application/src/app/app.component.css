@@ -1,0 +1,86 @@
+/* Fondo pagina e stile generale */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container centrato con ombra */
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form con margini e padding */
+  form {
+    background-color: #6c757d;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  /* Stile del titolo */
+  h3.display-4 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Stile dei gruppi di input */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Etichette degli input */
+  label {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #ddd;
+  }
+  
+  /* Input con bordi arrotondati e effetto focus */
+  input.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Cambio di colore quando l'input è attivo */
+  input.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Pulsante di invio */
+  button.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover del pulsante */
+  button.btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Spazio tra il form e il bottone */
+  button.btn-primary:focus {
+    outline: none;
+  }
+  
